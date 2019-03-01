@@ -1,0 +1,31 @@
+<section class="py-4">
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <h1 class="display-5 mt-5 pr-5 text-info">
+                Funny and friendly toys
+            </h1><p class="lead text-info">Make your children happiest one</p>
+            <form action="/charge" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_4xpMrbSDQbi6XfZLMt6DIHf2"
+    data-amount="2500"
+    data-name="Minion Toys"
+    data-description="E-Toys"
+    data-image="/img/marketplace.png"
+    data-locale="auto"
+    data-currency="gbp">
+  </script>
+  <script>
+      // Hide default stripte button
+      document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+  </script>
+
+  <button type="submit" class="btn btn-outline-dark text-grey btn-lg">Purchase Fro £25</button>
+
+</form>
+        </div>
+        <div class="col-md-6">
+            <img src="img/toy.png" alt="" class="img-fluid">
+        </div>
+    </div>
+</section>
