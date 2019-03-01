@@ -1,0 +1,17 @@
+{
+  "name": "e-toy-seller",
+  "version": "1.0.0",
+  "description": "App to sell toy",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "stripe": "^6.25.1"
+  }
+}
